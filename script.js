@@ -25,7 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
 	Quagga.onDetected((data) => {
 		$resultados.textContent = data.codeResult.code;
 		let cod = data.codeResult.code;
-		location.href = `/CODE_BAR?${cod}`
+		//location.href = `/CODE_BAR?${cod}`
+		location.href = `/sqldata.dyndns.org:5002/login`
 		// Imprimimos todo el data para que puedas depurar
 		console.log(data);
 	});
