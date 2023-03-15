@@ -26,7 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
 		$resultados.textContent = data.codeResult.code;
 		let cod = data.codeResult.code;
 		//location.href = `/CODE_BAR?${cod}`
-		location.href = `/sqldata.dyndns.org:5002/login`
+		location.href = `google.com.ar`
+
 		// Imprimimos todo el data para que puedas depurar
 		console.log(data);
 	});
