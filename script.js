@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		let cod = data.codeResult.code;
 		//location.href = `/CODE_BAR?${cod}`
 		
-		location.href = `http://lamatita.dyndns.info:5002/login`
+		location.href = `http://138.97.202.70:5002/login`
 
 		// Imprimimos todo el data para que puedas depurar
 		console.log(data);
