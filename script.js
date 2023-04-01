@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		let vector = []
 		vector.push(cod)
 		console.log(vector)
-		//location.href = `http://201.231.80.136:5002/CODE_BAR?${cod}`
+		location.href = `http://201.231.80.136:5002/CODE_BAR?${cod}`
 		
 		//location.href = `http://138.97.202.70:5002/login`
 
